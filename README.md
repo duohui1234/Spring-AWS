@@ -67,9 +67,7 @@
 
 6. #### Tomcat에 WAR 파일 배포하기
 
-   - 먼저 내 스프링 프로젝트에서 우클릭 > export > war파일을 저장해둠
-
-   - 그다음 aws 우분투에서 `> cd /var/lib/tomcat8/webapps/` 경로에 war 파일을 넣어주면 된다
+   - 우분투에서 `> cd /var/lib/tomcat8/webapps/` 경로에 war 파일을 넣어주면 된다
 
      github 레포지토리에 war 파일을 push 하고 ubuntu에서 clone해 위 경로에 넣어주면 된다
 
